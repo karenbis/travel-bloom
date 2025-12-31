@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>TravelBloom</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <header class="navbar">
+        <div class="logo">✈ TravelBloom</div>
+
+        <nav class="menu">
+            <a href="#">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+
+        <div class="search-box">
+            <input type="text" id="searchInput" placeholder="Enter a destination or keyword">
+            <button id="searchBtn">Search</button>
+            <button id="clearBtn" class="clear">Clear</button>
+        </div>
+    </header>
+
+    <!-- HERO -->
+    <section class="hero">
+        <div class="overlay"></div>
+
+        <div class="hero-content">
+            <h1>
+                EXPLORE<br>
+                DREAM<br>
+                DESTINATION
+            </h1>
+
+            <p>
+                It encourages exploration of unfamiliar territories,
+                embracing diverse cultures and landscapes, while pursuing
+                the desired destination that captivates the heart and
+                ignites a sense of wonder.
+            </p>
+
+            <button class="btn-primary">BOOK NOW</button>
+
+            <!-- SEARCH RESULTS -->
+            <div id="results" class="glass-box" style="display:none;"></div>
+        </div>
+
+        <!-- SOCIAL ICONS -->
+        <div class="social">
+            <span>🐦</span>
+            <span>📘</span>
+            <span>📸</span>
+            <span>▶</span>
+        </div>
+    </section>
+
+    <!-- JS -->
+    <script src="travel_recommendation.js"></script>
+</body>
+</html>
